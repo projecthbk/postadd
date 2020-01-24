@@ -54,7 +54,7 @@ if ($_POST['pass']==$password && $_POST['title']!='') {
 	<form method="POST" action="postadd.php" enctype="multipart/form-data">
 		<center>
 		<input type="password" name="pass" placeholder="PASSWORD" /><br /><br />
-		<input type="file" id="xlsx" name="uploadFile" /><label for="xlsx"><i class="fa fa-upload"></i> ADD PHOTO</label><br /><br />
+		<input type="file" id="upload" name="uploadFile" /><label for="upload"><i class="fa fa-upload"></i> ADD PHOTO</label><br /><br />
 		<input type="text" name="title" placeholder="TITLE" /><br /><br />
 		<textarea name="content" placeholder="CONTENT"></textarea><br /><br />
 		<input type="submit" value="SEND POST" />
