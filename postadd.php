@@ -51,7 +51,7 @@ if ($_POST['pass']==$password && $_POST['title']!='') {
   echo '<center><h1>POST ADDED</h1><a href="postadd.php">(BACK)</a></center>'; 
 } else {
 ?>
-	<form method="POST" action="postadd.php" enctype="multipart/form-data">
+	<form method="POST" enctype="multipart/form-data">
 		<center>
 		<input type="password" name="pass" placeholder="PASSWORD" /><br /><br />
 		<input type="file" id="upload" name="uploadFile" /><label for="upload"><i class="fa fa-upload"></i> ADD PHOTO</label><br /><br />
